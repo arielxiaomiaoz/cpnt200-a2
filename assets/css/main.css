@@ -1,0 +1,91 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation */
+.nav{
+  margin-top: 10px;
+  font-family: 'Nerko One', cursive;
+  font-size: 2rem;
+}
+
+/* header */
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fonts */
+h1{
+  font-family: 'Nerko One', cursive;
+  font-size: 5rem;
+  color: rgb(233, 112, 42);
+}
+
+h2{
+  font-family: 'Nerko One', cursive;
+  font-size: 4rem;
+}
+
+p,h3{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+}
+
+li{
+  border: solid black 2px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+/* the container contains customer information */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor{
+  width: 50%;
+  background-color:  rgb(199, 235, 235);
+}
+
+/* table */
+table{
+  width: 50%;
+  background: rgb(199, 235, 235);
+  text-align: center;
+}
+
+table td{
+  font-family:'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+}
+
+table .name{
+  font-family: 'Nerko One', cursive;
+  font-size: 2rem;
+}
+
+/* sticky footer */
+body,html{
+  height: 100%;
+}
+.wrapper{
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+	width:100%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
